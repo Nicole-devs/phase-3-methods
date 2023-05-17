@@ -13,4 +13,19 @@ def greet_with_default(name = "programmer")
   end
 
 
+def add(num1, num2)
+    return num1 + num2
+end
+ sum=add(2, 5)
+
+
+ def halve(number)
+    if number.is_a?(Integer)
+      number / 2
+    else
+      nil
+    end
+  end
+
+
   
