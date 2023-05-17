@@ -3,5 +3,14 @@ def greet_programmer
 end
 
 
+def greet(name = "Naureen")
+    puts "Hello, #{name}!"
+end
+
+
+def greet_with_default(name = "programmer")
+    puts "Hello, #{name}!"
+  end
+
 
   
